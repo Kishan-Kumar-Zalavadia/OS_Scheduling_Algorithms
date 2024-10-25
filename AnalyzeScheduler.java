@@ -15,18 +15,31 @@ public class AnalyzeScheduler {
         }
 
         Map<String, List<ResultMetrics>> algorithmResults = new HashMap<>();
+        Map<String, Map<String, ResultMetrics>> allResults = new HashMap<>();
 
         // Loop through each schedule file
         for (File scheduleFile : listOfFiles) {
+            System.out.println("-------------------------------------------------------------");
             System.out.println("\nRunning algorithms for file: " + scheduleFile.getName());
+
+            // Create a map to store results for this file
+            Map<String, ResultMetrics> fileResults = new HashMap<>();
 
             // Loop through each algorithm for the current file
             for (String algorithm : algorithms) {
                 System.out.println("\n--- Running " + algorithm + " on " + scheduleFile.getName() + " ---");
                 ResultMetrics metrics = runAlgorithm(algorithm, scheduleFile.getPath());
+                fileResults.put(algorithm, metrics);
                 algorithmResults.computeIfAbsent(algorithm, k -> new ArrayList<>()).add(metrics);
             }
+
+            // Store the results of this file in allResults
+            allResults.put(scheduleFile.getName(), fileResults);
         }
+
+        // Save all results to text file
+        System.out.println("-------------------------------------------------------------");
+        saveResultsToTxt(allResults, "all_results.txt");
 
         // Analyze the collected results
         analyzeResults(algorithmResults);
@@ -56,6 +69,25 @@ public class AnalyzeScheduler {
         } catch (IOException | InterruptedException e) {
             System.err.println("Error running " + algorithm + ": " + e.getMessage());
             return null;
+        }
+    }
+
+    private static void saveResultsToTxt(Map<String, Map<String, ResultMetrics>> allResults, String filePath) {
+        try (FileWriter writer = new FileWriter(filePath)) {
+            for (Map.Entry<String, Map<String, ResultMetrics>> fileEntry : allResults.entrySet()) {
+                writer.write("Results for: " + fileEntry.getKey() + "\n");
+                for (Map.Entry<String, ResultMetrics> algorithmEntry : fileEntry.getValue().entrySet()) {
+                    ResultMetrics metrics = algorithmEntry.getValue();
+                    writer.write("Algorithm: " + algorithmEntry.getKey() + "\n");
+                    writer.write("  Average Waiting Time: " + metrics.waitingTime + "\n");
+                    writer.write("  Average Turnaround Time: " + metrics.turnaroundTime + "\n");
+                    writer.write("\n");
+                }
+                writer.write("---------------------------------------------------\n");
+            }
+            System.out.println("All results saved to " + filePath);
+        } catch (IOException e) {
+            System.err.println("Error writing to text file: " + e.getMessage());
         }
     }
 

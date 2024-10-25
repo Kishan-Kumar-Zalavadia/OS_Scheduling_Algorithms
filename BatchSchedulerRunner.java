@@ -79,6 +79,7 @@ public class BatchSchedulerRunner {
 
         // Loop through each schedule file
         for (File scheduleFile : listOfFiles) {
+            System.out.println("-------------------------------------------------------------");
             System.out.println("\nRunning algorithms for file: " + scheduleFile.getName());
 
             // Create a map to store results for this file
@@ -86,6 +87,7 @@ public class BatchSchedulerRunner {
 
             // Loop through each algorithm for the current file
             for (String algorithm : algorithms) {
+                System.out.println("\n--- Running " + algorithm + " on " + scheduleFile.getName() + " ---");
                 ResultMetrics metrics = runAlgorithm(algorithm, scheduleFile.getPath());
                 fileResults.put(algorithm, metrics);
             }
@@ -95,6 +97,7 @@ public class BatchSchedulerRunner {
         }
 
         // Save all results to text file
+        System.out.println("-------------------------------------------------------------");
         saveResultsToTxt(allResults, "all_results.txt");
     }
 
