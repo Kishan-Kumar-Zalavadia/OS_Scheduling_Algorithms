@@ -1,0 +1,44 @@
+Results for: schedule_15_processes_7.txt
+Algorithm: RR
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: FCFS
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: SJF
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+---------------------------------------------------
+Results for: schedule.txt
+Algorithm: RR
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: FCFS
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+Algorithm: SJF
+  Average Waiting Time: 0.0
+  Average Turnaround Time: 0.0
+
+---------------------------------------------------
