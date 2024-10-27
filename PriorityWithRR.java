@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class PriorityWithRR {
-    private static final int TIME_QUANTUM = 10; // Time quantum set to 10 milliseconds
+    private static final int TIME_QUANTUM = 10;
 
     public static void main(String[] args) {
         if (args.length != 1) {
@@ -62,7 +62,7 @@ public class PriorityWithRR {
                 } else {
                     currentTime += TIME_QUANTUM;
                     task.remainingBurst -= TIME_QUANTUM;
-                    readyQueue.offer(task); // Requeue the task if it's not finished
+                    readyQueue.offer(task);
                 }
             }
         }

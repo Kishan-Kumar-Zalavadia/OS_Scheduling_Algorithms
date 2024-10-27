@@ -17,15 +17,12 @@ public class AnalyzeScheduler {
         Map<String, List<ResultMetrics>> algorithmResults = new HashMap<>();
         Map<String, Map<String, ResultMetrics>> allResults = new HashMap<>();
 
-        // Loop through each schedule file
         for (File scheduleFile : listOfFiles) {
             System.out.println("-------------------------------------------------------------");
             System.out.println("\nRunning algorithms for file: " + scheduleFile.getName());
 
-            // Create a map to store results for this file
             Map<String, ResultMetrics> fileResults = new HashMap<>();
 
-            // Loop through each algorithm for the current file
             for (String algorithm : algorithms) {
                 System.out.println("\n--- Running " + algorithm + " on " + scheduleFile.getName() + " ---");
                 ResultMetrics metrics = runAlgorithm(algorithm, scheduleFile.getPath());
@@ -33,15 +30,12 @@ public class AnalyzeScheduler {
                 algorithmResults.computeIfAbsent(algorithm, k -> new ArrayList<>()).add(metrics);
             }
 
-            // Store the results of this file in allResults
             allResults.put(scheduleFile.getName(), fileResults);
         }
 
-        // Save all results to text file
         System.out.println("-------------------------------------------------------------");
         saveResultsToTxt(allResults, "all_results.txt");
 
-        // Analyze the collected results
         analyzeResults(algorithmResults);
     }
 
@@ -51,7 +45,6 @@ public class AnalyzeScheduler {
             Process process = pb.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 
-            // Assume that the output includes waiting time, turnaround time, and response time
             ResultMetrics metrics = new ResultMetrics();
             String line;
             while ((line = reader.readLine()) != null) {

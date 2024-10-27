@@ -11,7 +11,6 @@ public class SchedulerRunner {
 
         String filename = args[0];
 
-        // List of algorithms to run
         String[] algorithms = {"FCFS", "SJF", "PriorityScheduling", "RR", "PriorityWithRR"};
 
         for (String algorithm : algorithms) {
@@ -22,18 +21,15 @@ public class SchedulerRunner {
 
     private static void runAlgorithm(String algorithm, String filename) {
         try {
-            // Build the command to run the respective algorithm
             ProcessBuilder pb = new ProcessBuilder("java", algorithm, filename);
             Process process = pb.start();
 
-            // Read the output of the algorithm
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
 
-            // Wait for the algorithm to finish
             process.waitFor();
 
         } catch (IOException | InterruptedException e) {
