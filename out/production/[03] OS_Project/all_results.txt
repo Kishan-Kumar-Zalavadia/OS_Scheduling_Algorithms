@@ -1,44 +1,484 @@
-Results for: schedule_15_processes_7.txt
+Results for: schedule_5_processes_4.txt
 Algorithm: RR
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 64.2
+  Average Turnaround Time: 87.4
 
 Algorithm: PriorityScheduling
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 33.0
+  Average Turnaround Time: 56.2
 
 Algorithm: PriorityWithRR
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 32.2
+  Average Turnaround Time: 55.4
 
 Algorithm: FCFS
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 58.6
+  Average Turnaround Time: 81.8
 
 Algorithm: SJF
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 30.2
+  Average Turnaround Time: 53.4
+
+---------------------------------------------------
+Results for: schedule_15_processes_5.txt
+Algorithm: RR
+  Average Waiting Time: 206.93333333333334
+  Average Turnaround Time: 231.6
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 171.46666666666667
+  Average Turnaround Time: 196.13333333333333
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 172.4
+  Average Turnaround Time: 197.06666666666666
+
+Algorithm: FCFS
+  Average Waiting Time: 188.06666666666666
+  Average Turnaround Time: 212.73333333333332
+
+Algorithm: SJF
+  Average Waiting Time: 105.86666666666666
+  Average Turnaround Time: 130.53333333333333
+
+---------------------------------------------------
+Results for: schedule_10_processes_6.txt
+Algorithm: RR
+  Average Waiting Time: 132.0
+  Average Turnaround Time: 155.9
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 114.6
+  Average Turnaround Time: 138.5
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 117.6
+  Average Turnaround Time: 141.5
+
+Algorithm: FCFS
+  Average Waiting Time: 94.2
+  Average Turnaround Time: 118.1
+
+Algorithm: SJF
+  Average Waiting Time: 68.6
+  Average Turnaround Time: 92.5
+
+---------------------------------------------------
+Results for: schedule_15_processes_3.txt
+Algorithm: RR
+  Average Waiting Time: 249.8
+  Average Turnaround Time: 276.6
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 167.4
+  Average Turnaround Time: 194.2
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 169.6
+  Average Turnaround Time: 196.4
+
+Algorithm: FCFS
+  Average Waiting Time: 168.06666666666666
+  Average Turnaround Time: 194.86666666666667
+
+Algorithm: SJF
+  Average Waiting Time: 136.0
+  Average Turnaround Time: 162.8
+
+---------------------------------------------------
+Results for: schedule_5_processes_1.txt
+Algorithm: RR
+  Average Waiting Time: 63.6
+  Average Turnaround Time: 85.6
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 39.6
+  Average Turnaround Time: 61.6
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 39.6
+  Average Turnaround Time: 61.6
+
+Algorithm: FCFS
+  Average Waiting Time: 46.6
+  Average Turnaround Time: 68.6
+
+Algorithm: SJF
+  Average Waiting Time: 31.6
+  Average Turnaround Time: 53.6
+
+---------------------------------------------------
+Results for: schedule_5_processes_2.txt
+Algorithm: RR
+  Average Waiting Time: 69.2
+  Average Turnaround Time: 92.2
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 49.0
+  Average Turnaround Time: 72.0
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 51.0
+  Average Turnaround Time: 74.0
+
+Algorithm: FCFS
+  Average Waiting Time: 57.6
+  Average Turnaround Time: 80.6
+
+Algorithm: SJF
+  Average Waiting Time: 32.6
+  Average Turnaround Time: 55.6
+
+---------------------------------------------------
+Results for: schedule_10_processes_3.txt
+Algorithm: RR
+  Average Waiting Time: 158.5
+  Average Turnaround Time: 183.5
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 124.9
+  Average Turnaround Time: 149.9
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 128.7
+  Average Turnaround Time: 153.7
+
+Algorithm: FCFS
+  Average Waiting Time: 105.2
+  Average Turnaround Time: 130.2
+
+Algorithm: SJF
+  Average Waiting Time: 83.0
+  Average Turnaround Time: 108.0
+
+---------------------------------------------------
+Results for: schedule_5_processes_7.txt
+Algorithm: RR
+  Average Waiting Time: 83.0
+  Average Turnaround Time: 113.4
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 47.6
+  Average Turnaround Time: 78.0
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 51.6
+  Average Turnaround Time: 82.0
+
+Algorithm: FCFS
+  Average Waiting Time: 49.6
+  Average Turnaround Time: 80.0
+
+Algorithm: SJF
+  Average Waiting Time: 45.0
+  Average Turnaround Time: 75.4
+
+---------------------------------------------------
+Results for: schedule_15_processes_2.txt
+Algorithm: RR
+  Average Waiting Time: 245.66666666666666
+  Average Turnaround Time: 272.26666666666665
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 178.2
+  Average Turnaround Time: 204.8
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 183.66666666666666
+  Average Turnaround Time: 210.26666666666668
+
+Algorithm: FCFS
+  Average Waiting Time: 175.4
+  Average Turnaround Time: 202.0
+
+Algorithm: SJF
+  Average Waiting Time: 134.0
+  Average Turnaround Time: 160.6
+
+---------------------------------------------------
+Results for: schedule_15_processes_6.txt
+Algorithm: RR
+  Average Waiting Time: 261.06666666666666
+  Average Turnaround Time: 287.6
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 190.33333333333334
+  Average Turnaround Time: 216.86666666666667
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 189.66666666666666
+  Average Turnaround Time: 216.2
+
+Algorithm: FCFS
+  Average Waiting Time: 177.06666666666666
+  Average Turnaround Time: 203.6
+
+Algorithm: SJF
+  Average Waiting Time: 135.6
+  Average Turnaround Time: 162.13333333333333
 
 ---------------------------------------------------
 Results for: schedule.txt
 Algorithm: RR
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 57.0
+  Average Turnaround Time: 76.0
 
 Algorithm: PriorityScheduling
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 33.0
+  Average Turnaround Time: 52.0
 
 Algorithm: PriorityWithRR
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 33.0
+  Average Turnaround Time: 52.0
 
 Algorithm: FCFS
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 44.0
+  Average Turnaround Time: 63.0
 
 Algorithm: SJF
-  Average Waiting Time: 0.0
-  Average Turnaround Time: 0.0
+  Average Waiting Time: 30.0
+  Average Turnaround Time: 49.0
+
+---------------------------------------------------
+Results for: schedule_10_processes_1.txt
+Algorithm: RR
+  Average Waiting Time: 186.3
+  Average Turnaround Time: 214.7
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 121.4
+  Average Turnaround Time: 149.8
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 119.4
+  Average Turnaround Time: 147.8
+
+Algorithm: FCFS
+  Average Waiting Time: 154.3
+  Average Turnaround Time: 182.7
+
+Algorithm: SJF
+  Average Waiting Time: 88.8
+  Average Turnaround Time: 117.2
+
+---------------------------------------------------
+Results for: schedule_10_processes_5.txt
+Algorithm: RR
+  Average Waiting Time: 154.7
+  Average Turnaround Time: 180.3
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 124.2
+  Average Turnaround Time: 149.8
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 125.8
+  Average Turnaround Time: 151.4
+
+Algorithm: FCFS
+  Average Waiting Time: 110.9
+  Average Turnaround Time: 136.5
+
+Algorithm: SJF
+  Average Waiting Time: 80.3
+  Average Turnaround Time: 105.9
+
+---------------------------------------------------
+Results for: schedule_5_processes_5.txt
+Algorithm: RR
+  Average Waiting Time: 44.2
+  Average Turnaround Time: 56.2
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 22.6
+  Average Turnaround Time: 34.6
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 22.6
+  Average Turnaround Time: 34.6
+
+Algorithm: FCFS
+  Average Waiting Time: 26.2
+  Average Turnaround Time: 38.2
+
+Algorithm: SJF
+  Average Waiting Time: 21.8
+  Average Turnaround Time: 33.8
+
+---------------------------------------------------
+Results for: schedule_15_processes_4.txt
+Algorithm: RR
+  Average Waiting Time: 374.73333333333335
+  Average Turnaround Time: 406.4
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 232.93333333333334
+  Average Turnaround Time: 264.6
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 243.6
+  Average Turnaround Time: 275.26666666666665
+
+Algorithm: FCFS
+  Average Waiting Time: 229.6
+  Average Turnaround Time: 261.26666666666665
+
+Algorithm: SJF
+  Average Waiting Time: 191.0
+  Average Turnaround Time: 222.66666666666666
+
+---------------------------------------------------
+Results for: schedule_10_processes_7.txt
+Algorithm: RR
+  Average Waiting Time: 195.4
+  Average Turnaround Time: 225.7
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 140.6
+  Average Turnaround Time: 170.9
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 143.0
+  Average Turnaround Time: 173.3
+
+Algorithm: FCFS
+  Average Waiting Time: 136.2
+  Average Turnaround Time: 166.5
+
+Algorithm: SJF
+  Average Waiting Time: 100.1
+  Average Turnaround Time: 130.4
+
+---------------------------------------------------
+Results for: schedule_5_processes_3.txt
+Algorithm: RR
+  Average Waiting Time: 64.8
+  Average Turnaround Time: 93.6
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 63.2
+  Average Turnaround Time: 92.0
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 65.2
+  Average Turnaround Time: 94.0
+
+Algorithm: FCFS
+  Average Waiting Time: 40.8
+  Average Turnaround Time: 69.6
+
+Algorithm: SJF
+  Average Waiting Time: 40.8
+  Average Turnaround Time: 69.6
+
+---------------------------------------------------
+Results for: schedule_15_processes_1.txt
+Algorithm: RR
+  Average Waiting Time: 216.0
+  Average Turnaround Time: 239.86666666666667
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 158.46666666666667
+  Average Turnaround Time: 182.33333333333334
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 166.8
+  Average Turnaround Time: 190.66666666666666
+
+Algorithm: FCFS
+  Average Waiting Time: 155.06666666666666
+  Average Turnaround Time: 178.93333333333334
+
+Algorithm: SJF
+  Average Waiting Time: 109.53333333333333
+  Average Turnaround Time: 133.4
+
+---------------------------------------------------
+Results for: schedule_15_processes_7.txt
+Algorithm: RR
+  Average Waiting Time: 303.1333333333333
+  Average Turnaround Time: 333.4
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 210.13333333333333
+  Average Turnaround Time: 240.4
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 214.06666666666666
+  Average Turnaround Time: 244.33333333333334
+
+Algorithm: FCFS
+  Average Waiting Time: 203.66666666666666
+  Average Turnaround Time: 233.93333333333334
+
+Algorithm: SJF
+  Average Waiting Time: 156.0
+  Average Turnaround Time: 186.26666666666668
+
+---------------------------------------------------
+Results for: schedule_5_processes_6.txt
+Algorithm: RR
+  Average Waiting Time: 102.0
+  Average Turnaround Time: 135.0
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 65.6
+  Average Turnaround Time: 98.6
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 65.6
+  Average Turnaround Time: 98.6
+
+Algorithm: FCFS
+  Average Waiting Time: 61.6
+  Average Turnaround Time: 94.6
+
+Algorithm: SJF
+  Average Waiting Time: 52.0
+  Average Turnaround Time: 85.0
+
+---------------------------------------------------
+Results for: schedule_10_processes_4.txt
+Algorithm: RR
+  Average Waiting Time: 203.0
+  Average Turnaround Time: 232.9
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 121.1
+  Average Turnaround Time: 151.0
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 124.9
+  Average Turnaround Time: 154.8
+
+Algorithm: FCFS
+  Average Waiting Time: 137.9
+  Average Turnaround Time: 167.8
+
+Algorithm: SJF
+  Average Waiting Time: 100.6
+  Average Turnaround Time: 130.5
+
+---------------------------------------------------
+Results for: schedule_10_processes_2.txt
+Algorithm: RR
+  Average Waiting Time: 206.5
+  Average Turnaround Time: 237.3
+
+Algorithm: PriorityScheduling
+  Average Waiting Time: 155.6
+  Average Turnaround Time: 186.4
+
+Algorithm: PriorityWithRR
+  Average Waiting Time: 163.1
+  Average Turnaround Time: 193.9
+
+Algorithm: FCFS
+  Average Waiting Time: 135.3
+  Average Turnaround Time: 166.1
+
+Algorithm: SJF
+  Average Waiting Time: 107.9
+  Average Turnaround Time: 138.7
 
 ---------------------------------------------------
